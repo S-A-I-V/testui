@@ -1,0 +1,55 @@
+.dashboard {
+    flex-grow: 1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #33334d;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .large {
+    grid-column: span 2;
+  }
+  
+  .device {
+    margin-bottom: 10px;
+  }
+  
+  .unique-visitors {
+    background-color: #6b49ff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .traffic-channels {
+    background-color: #4545a6;
+    color: white;
+  }
+  
+  .live-visitors {
+    background-color: #ff4f8b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bounce-rate {
+    background-color: #5a5aab;
+    color: white;
+  }
+  
+  .avg-visit-duration {
+    background-color: #6b49ff;
+    color: white;
+  }
+  
